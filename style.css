@@ -1,0 +1,1283 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 2px solid white;
+    height: 300vh;
+    display: flex;
+}
+
+/* ------ Inside_hearder -------- */
+
+.header{
+    background-color: white;
+    height: 10vh;
+    width: 99.9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 1;
+}
+.leftside_yotube{
+    width: 16vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 5rem;
+}
+.youtube-logo{
+    width: 80px; 
+    height: 40px;    
+    margin: 10px;
+}
+#fa_bar{
+    font-size: larger;
+}
+.input_glass{
+    display: flex;
+    justify-content: space-evenly;
+    width: vw;
+}
+.search_glass{
+    display: flex;
+    align-items: center;
+    width: 50vw;
+}
+#input_search{
+    border: 1px solid rgb(157, 152, 152);
+    flex-basis: 45vw;
+    height: 40px;
+    border-radius: 40px 0px 0px 40px;
+    padding-left: 20px;
+}
+#glass{
+    border: 1px solid rgb(157, 152, 152);
+    background-color: rgb(238, 235, 235);
+    height: 40px;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 40px 40px 0px;
+}
+.mic{
+    border: 1px solid rgb(216, 212, 212);
+    background-color: rgb(238, 235, 235);
+    height: 40px;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+.video_bell_kai{
+    width: 20vw;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 8rem;
+}
+.video_call{
+    font-size: xx-large;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bell{
+    font-size: x-large;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_of_kai{
+    font-size: x-large;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kai{
+    height: 30px;
+    width: 30px;
+    border-radius: 40px;
+}
+
+/* ------ Inside_hearder -------- */
+
+
+
+/* ---------sidebar-------- */
+.sidebar{
+    background-color: white;
+    height: 100vh;
+    width: 20vw;
+    position: sticky;
+    top: 10%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.sidebar::-webkit-scrollbar{
+    width: 1.5rem;
+}
+.home{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+.home:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#fa_house{
+    font-size: x-large;
+}
+.text_home{
+    padding-left: 1.5rem;
+}
+.shorts_youtube{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+.shorts_youtube:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.shorts{
+    height: 2rem;
+}
+.text_shorts{
+    padding-left: 1.2rem;
+}
+.subscription{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+.subscription:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.text_sub{
+    padding-left: 1.5rem;
+}
+#fa_play{
+    border: 1px solid black;
+    padding: 5px;
+}
+.library{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+#fa_book{
+    font-size: x-large;
+}
+.text_library{
+    padding-left: 1.5rem;
+}
+.library:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.history{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+#clock_rotate{
+    font-size: x-large; 
+}
+.text_history{
+    padding-left: 1.5rem;
+}
+.history:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.your_video{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+#circle_play{
+    font-size: x-large;
+}
+.text_your_video{
+    padding-left: 1.5rem;
+}
+.your_video:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.clock{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem; 
+}
+#fa_clock{
+    font-size: x-large;
+}
+.text_watch_video{
+    padding-left: 1.5rem;
+}
+.clock:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.like{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem; 
+}
+#thumbs_up{
+    font-size: x-large;
+}
+.text_like_video{
+    padding-left: 1.5rem; 
+}
+.like:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.head_sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5rem;
+}
+.seojeong{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem; 
+}
+.kim_sejeong{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 40px;
+}
+.name_kim{
+    padding-left: 1.5rem; 
+}
+.seojeong:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.fav_music{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem; 
+}
+.music{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 40px; 
+}
+.name_music{
+    padding-left: 1.5rem; 
+}
+.fav_music:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.singer_xxtent{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem; 
+}
+.xxtentaction{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 40px; 
+}
+.name_xxtentaction{
+    padding-left: 1.5rem; 
+}
+.singer_xxtent:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.bhuvan_bam{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+.vines{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 40px; 
+}
+.name_bb_ki_vines{
+    padding-left: 1.5rem; 
+}
+.bhuvan_bam:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.code_volution{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+.codevolution{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 40px;
+}
+.name_codevolation{
+    padding-left: 1.5rem;
+}
+.code_volution:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.about_telusko{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+.telusko{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 40px;
+}
+.name_telusko{
+    padding-left: 1.5rem;
+}
+.about_telusko:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.round_hell{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+.round{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 40px; 
+}
+.name_round-hell{
+    padding-left: 1.5rem;
+}
+.round_hell:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.head_expl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 8rem;
+}
+.fire{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+#fa_fire{
+    font-size: x-large;
+}
+.fire_trending{
+    padding-left: 1.5rem;
+}
+.fire:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.shopify{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+#fa_shopify{
+    font-size: x-large;
+}
+.shop{
+    padding-left: 1.5rem; 
+}
+.shopify:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.trending_music{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+#fa_music{
+    font-size: x-large;
+}
+._music{
+    padding-left: 1.5rem; 
+}
+.trending_music:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.latest_movie{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+#fa_movie{
+    font-size: x-large;
+}
+.movies{
+    padding-left: 1.5rem;
+}
+.latest_movie:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.ring{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem; 
+}
+#fa_ring{
+    font-size: x-large;
+}
+.live{
+    padding-left: 1.5rem;
+}
+.ring:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.game{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;  
+}
+#fa_game{
+    font-size: x-large;
+}
+.gaming{
+    padding-left: 1.5rem;
+}
+.game:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.news{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+#fa_news{
+    font-size: x-large;
+}
+.news_paper{
+    padding-left: 1.5rem;
+}
+.news:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px; 
+}
+.sport{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+#fa_medal{
+    font-size: x-large;
+}
+.sports{
+    padding-left: 1.5rem;
+}
+.sport:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px; 
+}
+.learn{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+#fa_learnpub{
+    font-size: x-large;
+}
+.learning{
+    padding-left: 1.5rem;
+}
+.learn:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.fashion{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;  
+}
+#cowboy{
+    font-size: x-large;
+}
+.beauty{
+    padding-left: 1.5rem; 
+}
+.fashion:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.more_from_youtube{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2rem;
+}
+.youtube_premium{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+.premium{
+    height: 12px;
+}
+.prem{
+    padding-left: 1rem; 
+}
+.youtube_premium:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.youtube_studio{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem; 
+}
+.studio{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 40px;
+}
+.stud{
+    padding-left: 1.5rem;
+}
+.youtube_studio:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.youtube_music{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+.music_youtube{
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 40px;
+}
+.mus{
+    padding-left: 1.5rem; 
+}
+.youtube_music:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.youtube_kid{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+.kid{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 40px; 
+}
+.kid_youtube{
+    padding-left: 1.5rem; 
+}
+.youtube_kid:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.settings{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+#fa_gear{
+    font-size: x-large;
+}
+.youtube_setting{
+    padding-left: 1.5rem;
+}
+.settings:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.report_history{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+#fa_flag{
+    font-size: x-large;
+}
+.history_report{
+    padding-left: 1.5rem;
+}
+.report_history:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.help{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem; 
+}
+#circle_question{
+    font-size: x-large;
+}
+.helping_circle{
+    padding-left: 1.5rem;
+}
+.help:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.Send_feedback{
+    border-radius: 15px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem; 
+}
+#fa_message{
+    font-size: x-large;
+}
+.feedback{
+    padding-left: 1.5rem;
+}
+.Send_feedback:hover{
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px; 
+}
+.copyright_contact{
+    display: flex;
+    justify-content: center;
+    align-items: centere;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+    height: 6rem;
+}
+footer{
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 70%;
+    cursor: pointer;
+}
+
+/* ---------sidebar---------- */
+.main_container{
+    height: 300vh;
+    width: 80vw;
+}
+.container_header{
+    background-color: white;
+    height: 4rem;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 10%;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.container_header::-webkit-scrollbar{
+    width: 1.5rem;
+}
+
+.header_container{
+    border: 1px solid rgb(240, 232, 232);
+    font-size: small;
+    background-color: rgb(225, 214, 214);
+    cursor: pointer;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+}
+.header_container:hover{
+    background-color: black;
+    color: white;
+}
+
+.first_line_videos{
+    width: 99.9%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+}
+
+.haikyuu{
+    height: 18rem;
+    width: 21rem;
+    margin: 5px;    
+}
+.haikyuu_shoyo{
+    height: 12rem;
+    width: 20.5rem;
+    border-radius: 8px;
+}
+.season_one{
+    height: 2.5rem;
+    width: 21rem;
+}
+.shoyo_power{
+    display: flex;
+    width: 21rem;
+    height: 3rem;
+    padding-right: 4px;
+}
+.shoyo{
+    height: 2rem;
+    width: 2.3rem;
+    border-radius: 40rem;
+    padding-left: 5px;
+}
+.scale{
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.powerscale{
+    opacity: 70%;
+}
+
+.ost{
+    height: 18rem;
+    width: 21rem;
+    margin: 5px; 
+}
+.heize{
+    height: 12rem;
+    width: 20.5rem;
+    border-radius: 8px;
+}
+.not_be_okay{
+    height: 2.5rem;
+    width: 21rem;
+}
+.a_sharp{
+    display: flex;
+    width: 21rem;
+    height: 3rem;
+    padding-right: 4px;
+}
+.sharp{
+    height: 2rem;
+    width: 2.3rem;
+    border-radius: 40rem;
+    padding-left: 5px; 
+}
+.youre_cold{
+    padding-left: 10px;
+    padding-top: 3px; 
+}
+.cold{
+    opacity: 70%;
+}
+
+
+.jujutsu_kaisen{
+    height: 18rem;
+    width: 21rem;
+    margin: 5px; 
+}
+.kaisen{
+    height: 12rem;
+    width: 20.5rem;
+    border-radius: 8px;
+}
+.jujutsu{
+    height: 2.5rem;
+    width: 21rem;
+}
+.hanami{
+    display: flex;
+    width: 21rem;
+    height: 3rem;
+    padding-right: 4px; 
+}
+.gojo{
+    height: 2rem;
+    width: 2.3rem;
+    border-radius: 40rem;
+    padding-left: 5px;  
+}
+.satoru{
+    padding-left: 10px;
+    padding-top: 3px; 
+}
+.yuji{
+    opacity: 70%;
+}
+
+.second_line_videos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+    width: 99.9%;
+}
+.one_piece{
+    height: 18rem;
+    width: 21rem;
+    margin: 5px; 
+}
+.monkey_d_luffy{
+    height: 12rem;
+    width: 20.5rem;
+    border-radius: 8px;
+}
+.d_luffy{
+    height: 2.5rem;
+    width: 21rem;
+}
+.new_generation{
+    display: flex;
+    width: 21rem;
+    height: 3rem;
+    padding-right: 4px; 
+}
+.straw_hat{
+    height: 2rem;
+    width: 2.3rem;
+    border-radius: 40rem;
+    padding-left: 5px;
+}
+.emperors{
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.gear{
+    opacity: 70%; 
+}
+
+.seven_deadly_sins{
+    height: 18rem;
+    width: 21rem;
+    margin: 5px;
+}
+.sin{
+    height: 12rem;
+    width: 20.5rem;
+    border-radius: 8px; 
+}
+.deadly_seven{
+    height: 2.5rem;
+    width: 21rem;
+}
+.seven{
+    display: flex;
+    width: 21rem;
+    height: 3rem;
+    padding-right: 4px;
+}
+.meliodas_demon{
+    height: 2rem;
+    width: 2.3rem;
+    border-radius: 40rem;
+    padding-left: 5px;
+}
+.meliodas{
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.escanor{
+    opacity: 70%;
+}
+
+.when_i_fly_towards{
+    height: 18rem;
+    width: 21rem;
+    margin: 5px;
+}
+.zhu_yanan{
+    height: 12rem;
+    width: 20.5rem;
+    border-radius: 8px;
+}
+.before{
+    height: 2.5rem;
+    width: 21rem;
+}
+.fly{
+    display: flex;
+    width: 21rem;
+    height: 3rem;
+    padding-right: 4px; 
+}
+.toward{
+    height: 2rem;
+    width: 2.3rem;
+    border-radius: 40rem;
+    padding-left: 5px;
+}
+.fluttershy{
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.shy{
+    opacity: 70%; 
+}
+
+.third_line_videos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+    width: 99.9%;
+}
+.mo_fan{
+    height: 18rem;
+    width: 21rem;
+    margin: 5px;  
+}
+.shadow_skill{
+    height: 12rem;
+    width: 20.5rem;
+    border-radius: 8px;
+}
+.skill_shadow{
+    height: 2.5rem;
+    width: 21rem;
+}
+.college{
+    display: flex;
+    width: 21rem;
+    height: 3rem;
+    padding-right: 4px;
+}
+.fan{
+    height: 2rem;
+    width: 2.3rem;
+    border-radius: 40rem;
+    padding-left: 5px; 
+}
+.shadow{
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.skill{
+    opacity: 70%;  
+}
+
+.suicide_squad{
+    height: 18rem;
+    width: 21rem;
+    margin: 5px;
+}
+.suicide{
+    height: 12rem;
+    width: 20.5rem;
+    border-radius: 8px; 
+}
+.squad{
+    height: 2.5rem;
+    width: 21rem; 
+}
+.deadshot{
+    display: flex;
+    width: 21rem;
+    height: 3rem;
+    padding-right: 4px;
+}
+.joker{
+    height: 2rem;
+    width: 2.3rem;
+    border-radius: 40rem;
+    padding-left: 5px;
+}
+.shot_dead{
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.show{
+    opacity: 70%; 
+}
+
+.transformers{
+    height: 18rem;
+    width: 21rem;
+    margin: 5px;
+}
+.cars{
+    height: 12rem;
+    width: 20.5rem;
+    border-radius: 8px; 
+}
+.scenes{
+    height: 2.5rem;
+    width: 21rem; 
+}
+.exciting_scenes{
+    display: flex;
+    width: 21rem;
+    height: 3rem;
+    padding-right: 4px;
+}
+.first_transformers_movie{
+    height: 2rem;
+    width: 2.3rem;
+    border-radius: 40rem;
+    padding-left: 5px;
+}
+.robot_cars{
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.robot{
+    opacity: 70%; 
+}
+
+
+.fourth_line_videos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+    width: 99.9%;
+}
+.step_up{
+    height: 18rem;
+    width: 21rem;
+    margin: 5px;
+}
+.dance{
+    height: 12rem;
+    width: 20.5rem;
+    border-radius: 8px;
+}
+.last_dance{
+    height: 2.5rem;
+    width: 21rem;
+}
+.pin_moose{
+    display: flex;
+    width: 21rem;
+    height: 3rem;
+    padding-right: 4px;
+}
+.moose{
+    height: 2rem;
+    width: 2.3rem;
+    border-radius: 40rem;
+    padding-left: 5px; 
+}
+.stay{
+    padding-left: 10px;
+    padding-top: 3px; 
+}
+.alert{
+    opacity: 70%;
+}
+
+.real_steel{
+    height: 18rem;
+    width: 21rem;
+    margin: 5px;
+}
+.steel_clip{
+    height: 12rem;
+    width: 20.5rem;
+    border-radius: 8px;
+}
+.real_steel_battles{
+    height: 2.5rem;
+    width: 21rem;
+}
+.steel_movie{
+    display: flex;
+    width: 21rem;
+    height: 3rem;
+    padding-right: 4px;
+}
+.real_steel_robot{
+    height: 2rem;
+    width: 2.3rem;
+    border-radius: 40rem;
+    padding-left: 5px; 
+}
+.axecutioner{
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.clip{
+    opacity: 70%; 
+}
+
+.teenage_mutant_ninja_turtles{
+    height: 18rem;
+    width: 21rem;
+    margin: 5px;
+}
+.ninja{
+    height: 12rem;
+    width: 20.5rem;
+    border-radius: 8px;
+}
+.mutant_ninja{
+    height: 2.5rem;
+    width: 21rem;
+}
+.turtles{
+    display: flex;
+    width: 21rem;
+    height: 3rem;
+    padding-right: 4px;
+}
+.mutant_ninja_movie{
+    height: 2rem;
+    width: 2.3rem;
+    border-radius: 40rem;
+    padding-left: 5px; 
+}
+.boxoffice{
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.office{
+    opacity: 70%; 
+}
